@@ -1,5 +1,6 @@
 ## Ex 3-1. 창 띄우기.
 # blank_window.py 
+
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget
 from PyQt5.QtGui import QIcon
