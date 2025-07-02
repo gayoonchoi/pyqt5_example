@@ -17,7 +17,7 @@ class MyApp(QWidget):
     def initUI(self): 
         # 창 이름 변경 
         self.setWindowTitle('My GY Application')
-        self.setWindowIcon(QIcon('web.png'))
+        self.setWindowIcon(QIcon('icon/web.png'))
         self.setGeometry(300, 300, 300, 200)
         # 창을 띄우는 위치 설정 ------------------------------------------ 부모 클래스의 move 메소드가 있어야 실행 가능하다. 
         self.move(300, 300) 
